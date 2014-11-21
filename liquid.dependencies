@@ -1,0 +1,93 @@
+[
+  {
+    "remote": "gh",
+    "repository": "Bunchies101/android_kernel_asus_fugu",
+    "target_path": "kernel/asus/fugu",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/audio_media",
+    "target_path": "hardware/intel/audio_media",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/bootstub",
+    "target_path": "hardware/intel/bootstub",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/bd_prov",
+    "target_path": "hardware/intel/common/bd_prov",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/libmix",
+    "target_path": "hardware/intel/common/libmix",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/libstagefrighthw",
+    "target_path": "hardware/intel/common/libstagefrighthw",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/libva",
+    "target_path": "hardware/intel/common/libva",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/libwsbm",
+    "target_path": "hardware/intel/common/libwsbm",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/omx-components",
+    "target_path": "hardware/intel/common/omx-components",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/utils",
+    "target_path": "hardware/intel/common/utils",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/common/wrs_omxil_core",
+    "target_path": "hardware/intel/common/wrs_omxil_core",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/img/hwcomposer",
+    "target_path": "hardware/intel/img/hwcomposer",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/img/libdrm",
+    "target_path": "hardware/intel/img/libdrm",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/img/psb_headers",
+    "target_path": "hardware/intel/img/psb_headers",
+    "revision": "android-5.0.0_r7"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/intel/img/psb_video",
+    "target_path": "hardware/intel/img/psb_video",
+    "revision": "android-5.0.0_r7"
+  }
+]
+

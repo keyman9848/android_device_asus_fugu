@@ -30,7 +30,7 @@ endif
 ifneq ($(TARGET_KERNEL_BUILT_FROM_SOURCE), true)
 # Use prebuilt kernel
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/asus/fugu-kernel/bzImage
+LOCAL_KERNEL := device/asus/fugu/bzImage
 else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
@@ -52,6 +52,11 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # when we start doing 720 as well, will need to stop hardcoding this.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.adb.secure=0 \
+    ro.debuggable=1 \
+    ro.dalvik.vm.native.bridge=libhoudini.so
 
 $(call inherit-product-if-exists, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
